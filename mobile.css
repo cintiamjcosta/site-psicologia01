@@ -191,7 +191,7 @@
 
     article.formacao h1 {
         margin-bottom: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     ul.lista-formacao {
@@ -201,12 +201,12 @@
 
     article.terapia h1 {
         margin-bottom: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     article.terapia h2 {
         margin-bottom: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     p.terapia {
@@ -228,12 +228,12 @@
 
     div.terapia-ind h1 {
         margin-bottom: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     div.terapia-ind h2 {
        margin: 30px 0;
-       text-align: left;
+       text-align: center;
     }
 
     div.terapia-ind h3 {
@@ -252,15 +252,20 @@
     text-align: left;
    }
 
+   article.depoimentos h1 {
+    text-align: center;
+   }
+
    article.convite h1 {
     margin-bottom: 30px;
-    text-align: left;
+    text-align: center;
    }
 
    article.convite h2 {
     margin-bottom: 30px;
     text-align: left;
    }
+
 
     p {
         text-indent: 2em;
@@ -285,6 +290,8 @@
     font-weight: bold;
     border-radius: 8px;
     transition: 0.5s;
+    cursor: pointer;
+    
    }
 
    a.botao:hover {
