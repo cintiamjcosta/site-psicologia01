@@ -43,11 +43,7 @@
        
     }
 
-    img.logo {
-        width: 100px;
-        
-    }
-
+  
     ul.lista-header {
         list-style: none;
         display: flex;
@@ -149,39 +145,71 @@
         text-indent: 0;
    }
 
-   div.sobre {
+  article.article-sobre {
     display: flex;
     flex-direction: column;
-   }
+    gap: 20px;
+    padding: 20px;
+  }
 
-   div.imagem {
-    margin: auto;
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
-   }
+.container-sobre h1 {
+    text-align: center;
+    margin: 30px 0;
+}
 
-    img.img-sobre {
-        width: 400px;
-        display: block;
-        object-fit: cover;
-        overflow: hidden;
-        aspect-ratio: 1 / 1;
-        border-radius: 5px;
-        
-        margin-bottom: 20px;
+.texto-sobre {
+    text-align: center;
+}
 
-   }
+.texto-sobre h2 {
+    margin: 10px 0;
+}
 
-   article.sobre h1 {
-        margin: 30px 0;
-        text-align: center;
-   }
 
-    article.sobre h2 {
-        margin: 30px 0;
-        text-align: center;
-    }
+.foto-psicologa {
+    margin-bottom: 30px;
+}
 
-    ul.lista-sobre {
+.foto-psicologa img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+    display: block;
+}
+
+
+
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.container-lista img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+    display: block;
+ }
+
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+    .container-lista ul {
         list-style-type: none;
         list-style-position: inside;
         margin-top: 30px;
@@ -189,42 +217,57 @@
         flex-direction: column;
     }
 
-    article.formacao h1 {
+    .formacao h1 {
         margin-bottom: 30px;
         text-align: center;
     }
 
-    ul.lista-formacao {
+    .lista-formacao ul {
         list-style-type: none;
         list-style-position: inside;
     }
 
-    article.terapia h1 {
-        margin-bottom: 30px;
+    .container-terapia {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .terapia-ind {
+        background-image: url(imagens/marca-dagua-640.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .terapia-ind h1 {
+        margin: 30px 0;
         text-align: center;
     }
 
-    article.terapia h2 {
-        margin-bottom: 30px;
+    .terapia-ind-01 h2 {
+        margin: 30px 0;
         text-align: center;
     }
 
-    p.terapia {
-        margin-bottom: 30px;
-        text-indent: 0;
+    .borda-02 p {
+        margin-top: 10px;
     }
 
-    ul.terapia-ind {
+    .borda-02 .paragrafo {
+        margin-top: -20px;
+    }
+
+    .depoimentos h1 {
+        margin-bottom: 30px;
+    }
+   
+    .terapia-ind-01 ul{
         list-style-type: none;
         list-style-position: inside;
         margin-bottom: 30px;
     }
 
-    ul.lista-casal {
-        list-style-type: none;
-        list-style-position: inside;
-        margin-bottom: 30px;
-    }
 
     div.terapia-ind h1 {
         margin-bottom: 30px;
@@ -242,25 +285,79 @@
         
     }
 
-   div.terapia-casal h2 {
-    margin: 30px 0;
-    text-align: left;
+    .terapia-casal-01 ul {
+        list-style-type: none;
+        list-style-position: inside;
+        margin-bottom: 30px;
+    }
+
+    .terapia-casal-01 h2 {
+        margin: 30px 0;
+        text-align: center;
    }
 
-   div.terapia-casal h3 {
+   .terapia-casal-01 h3 {
     margin: 25px 0;
     text-align: left;
    }
 
-   article.depoimentos h1 {
-    text-align: center;
+   .borda-03 {
+    border: 2px solid black;
+    padding: 10px;
    }
 
-   article.convite h1 {
+   .dep-terapia-ind p {
+    margin-bottom: 20px;
+   }
+
+    .borda-final {
+       border: 2px solid black;
+   }
+
+   .borda-final .paragrafo-01 {
     margin-bottom: 30px;
+   }
+
+   .dep-terapia-casal p {
+    padding: 10px;
+     margin-bottom: 20px;
+   }
+
+   .total-dep {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+   }
+
+   .depoimentos h1 {
     text-align: center;
    }
 
+   .total-dep h1 {
+    text-align: center;
+   }
+
+   .total-dep h2 {
+    text-align: center;
+    margin: 20px 0;
+   }
+
+   .total-dep h3 {
+    text-align: center;
+    margin: 20px 0;
+   }
+
+   .dep-terapia-ind h2 {
+    margin: 20px 0;
+   }
+
+   .convite-01 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+   }
+
+  
    article.convite h2 {
     margin-bottom: 30px;
     text-align: left;
@@ -282,7 +379,17 @@
         color: rgb(38, 38, 107);
     }
 
-   a.botao {
+    .botao-central {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .botao h2 {
+    margin-bottom: 30px;
+   }
+
+   .botao a {
     background-color: var(--azul-destaque);
     padding: 12px 20px;
     text-decoration: none;
@@ -294,7 +401,7 @@
     
    }
 
-   a.botao:hover {
+   .botao a:hover {
     background-color: var(--azul-médio-suave);
     color: var(--texto-principal);
     text-decoration: underline;
@@ -307,7 +414,7 @@
         font-weight: bold;
         background-color: var(--azul-destaque);
         color: white;
-}
+    }
 
 @media screen and (min-width: 768px) {
 
@@ -327,26 +434,139 @@
         margin: 15px;
     }
 
-    article.sobre {
-        display: flex;
+  
+    .container-sobre {
         flex-direction: row;
         justify-content: space-between;
+        margin: auto;
+        gap: 50px;
     }
 
-     article.sobre h1 {
-        text-align: left;
-        margin-bottom: 20px;
-     }
+     .foto-psicologa {
+        flex: 1;
+    }
 
-     div.sobre {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-     }
+    .foto-psicologa img {
+        max-width: 350px;
+        border-radius: 10px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        overflow: hidden;
+        display: block;
+    }
 
-     h1, h2 {
+    .texto-sobre {
+        flex: 2;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    .texto-sobre h2 {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .container-lista {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .formacao h1 {
         text-align: left;
-     }
+    }
+
+    .borda-01 {
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    .borda-01 p {
+        margin: 10px 0;
+    }
+
+    .borda-001 {
+        margin-top: 20px;
+    }
+
+    .borda-02 {
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+   
+    .terapia-ind-01 h1 {
+        text-align: left;
+    }
+
+    .terapia-ind-01 h2 {
+        text-align: left;
+    }
+
+    .terapia-ind h1 {
+        text-align: left;
+    }
+
+    .terapia-casal-01 h2 {
+        text-align: left;
+    }
+
+    .container-terapia {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .total-dep {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .dep-terapia-ind {
+        flex: 1;
+    }
+
+    .dep-terapia-casal {
+        flex: 1;
+    }
+   
+    .total-dep h1 {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .depoimentos h1 {
+        text-align: left;
+    }
+
+   .total-dep h2 {
+    text-align: left;
+   }
+
+   .total-dep h3 {
+    text-align: left;
+   }
+
+    .convite-01 h1 {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+   
+
+    }
 
     
-}
+
+    
+
+   
+
+     
+
+    
+
+    
+     
+
