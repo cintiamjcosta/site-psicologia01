@@ -41,8 +41,10 @@
         position: sticky;
         top: 0;
         z-index: 1000;
+       
     }
 
+   
   
     ul.lista-header {
         list-style: none;
@@ -56,6 +58,7 @@
         color: white;
         font-weight: bold;
         transition: 0.5s;
+        font-size: 1em;
     }
 
     ul.lista-header a:hover {
