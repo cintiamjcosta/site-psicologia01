@@ -58,7 +58,7 @@
         color: white;
         font-weight: bold;
         transition: 0.5s;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     ul.lista-header a:hover {
