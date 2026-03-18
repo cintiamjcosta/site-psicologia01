@@ -100,7 +100,7 @@
         
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center right;
         padding: 150px 0; 
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
@@ -234,7 +234,7 @@
         background-image: url(imagens/marca-dagua-640.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 
     #terapia-ind h1 {
@@ -434,6 +434,26 @@
         margin: 15px;
     }
 
+    #headline-01 {
+        
+        background-image: url(imagens/campo-marca640.jpg);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center right;
+        padding: 150px 0; 
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+        
+      
+   }
+
+   #terapia-ind {
+        background-image: url(imagens/marca-dagua-640.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
   
     .container-sobre {
         flex-direction: row;
