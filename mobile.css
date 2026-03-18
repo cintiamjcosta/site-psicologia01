@@ -24,7 +24,7 @@
     body {
         background-color: var(--fundo-secundário);
         width: 100vw; /* o body não precisa de altura definida porque vai impedir a rolagem da págino com o header grudado*/
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-family: var(--fonte-principal);
         line-height: 2em;
         text-align: justify;
